@@ -1,0 +1,28 @@
+﻿Site,TreeID,EpiID,iNatID,species guess,Date,Description,Location,Latitude / y coord / northing,Longitude / x coord / easting,Tags,Geoprivacy,size of accidental (m),Count of Individuals Observed,Height on tree etc (m),dbh of host tree (m) (diameter at breast height),host tree species,Setting of area,growing site on the tree,Moss?,Observation group,Estimated Tree Height (m)
+Site02,2T01,2Epi1.1,270991012,Fagus sylvestris,17.04.2025,,,,,,,,,,,,,,,,
+Site03,3T01,3Epi1.1,272402245,ivy,,,,,,,,,,,1.4,,,,,,
+Site03,3T02,3Epi2.1,277630707,fern,,,,,,,,,,,,,,,,,
+Site04,4T01,4Epi1.1,277636803,,,,,,,,,0.04,1,0.86,1.4,Quercus,rural,crotch,,,10
+Site04,4T01,4Epi1.2,277636800,fern,,,,,,,,0.06,3,1.4,1.4,Quercus,rural,bark,y,,10
+Site04,4T02,4Epi2.1,277636807,poa,,,,,,,,0.1,1,0.45,0.6,Hawthorn,rural,crotch,,,7
+Site04,4T02,4Epi2.2,277636813,fern,,,,,,,,0.1,1,2.1,0.6,Hawthorn,rural,bark,,,
+Site04,4T02,4Epi2.3,277636816,fern,,,,,,,,0.1,1,2.7,0.6,Hawthorn,rural,bark,,,
+Site04,4T03,4Epi3.1,277642758,fern,,,,,,,,0.1,1,1.8,0.5,Hawthorn,rural,bark,y,,5
+Site04,4T04,4Epi4.1,277642765,fern,,,,,,,,0.1,1,1,0.2,Hawthorn,rural,bark,y,,5
+Site04,4T04,4Epi4.2,277642767,fern,,,,,,,,0.1,1,1.3,0.2,Hawthorn,rural,bark,y,,5
+Site04,4T04,4Epi4.3,277642768,fern,,,,,,,,0.1,1,1.6,0.2,Hawthorn,rural,bark,y,,5
+Site04,4T04,4Epi4.4,277642770,fern,,,,,,,,0.1,1,2,0.2,Hawthorn,rural,bark,y,,5
+Site04,4T05,4Epi5.1,277642771,fern,,,,,,,,0.07,1,1.3,0.3,Hawthorn,rural,bark,y,,5
+Site04,4T06,4Epi6.1,277642780,fern,,,,,,,,0.1,1,1.5,0.6,Hawthorn,rural,bark,y,,7
+Site04,4T06,4Epi6.2,277642779,fern,,,,,,,,0.1,1,1.6,0.6,Hawthorn,rural,bark,y,,7
+Site07,7T01,7Epi1.1,279871605,,,,,,,,,0.1,1,2.1,0.5,Fagus,rural,crotch,n,,15
+Site07,7T02,7Epi2.1,279871606,,,,,,,,,0.1,1,0.1,0.13,Alver,rural,base,n,,15
+Site09,9T01,9Epi1.1,280955936,,,,,,,,,0.2,1,3,0.6,Fraxinus,urban,crotch,?,,20
+Site09,9T02,9Epi2.1,280955939,,,,,,,,,0.07,1,0.4,0.6,Acer,urban,,,,20
+Site09,9T02,9Epi2.2,280955941,,,,,,,,,,,,,,,,,,
+Site09,9T02,9Epi2.3,280955942,,,,,,,,,,,,,,,,,,
+Site09,9T02,9Epi2.4,280955943,,,,,,,,,,,,,,,,,,
+Site09,9T02,9Epi2.5,280955944,,,,,,,,,,,,,,,,,,
+Site09,9T02,9Epi2.6,280955945,,,,,,,,,,,,,,,,,,
+Site09,9T03,9Epi3.1,280956579,,,,,,,,,,,,,,,,,,
+Site09,9T04,9Epi4.1,280956582,,,,,,,,,,,,,,,,,,
