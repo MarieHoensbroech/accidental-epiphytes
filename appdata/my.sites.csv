@@ -1,0 +1,157 @@
+site,TreeCat,NumberTrees,siteLat,siteLon,setting,dominanttree1,dominanttree2,dominanttree3,dominanttree4,dominanttree5,dominanttree6,V17,undergrowth,n_epis_per_site,n_sp_per_site,n_epis_per_site_cat,n_sp_per_site_cat,Name,area_ha
+S01,10 - 30,81,52.45567,5.43411,Rural,Acer,Prunus,"","","","","","",0,0,0,0,Site1_Lelystad,0.374011314282
+S01,30 - 60,113,52.45567,5.43411,Rural,Acer,Prunus,"","","","","","",0,0,0,0,Site1_Lelystad,0.374011314282
+S01,60 - 90,0,52.45567,5.43411,Rural,Acer,Prunus,"","","","","","",0,0,0,0,Site1_Lelystad,0.374011314282
+S01,90+,0,52.45567,5.43411,Rural,Acer,Prunus,"","","","","","",0,0,0,0,Site1_Lelystad,0.374011314282
+S02,10 - 30,31,52.47335,5.42394,Rural,Acer,Prunus,Fagus,"","","","","",0,0,0,0,Site2_Lelystad,0.20759558764
+S02,30 - 60,25,52.47335,5.42394,Rural,Acer,Prunus,Fagus,"","","","","",1,1,1,1,Site2_Lelystad,0.20759558764
+S02,60 - 90,5,52.47335,5.42394,Rural,Acer,Prunus,Fagus,"","","","","",0,0,0,0,Site2_Lelystad,0.20759558764
+S02,90+,0,52.47335,5.42394,Rural,Acer,Prunus,Fagus,"","","","","",0,0,0,0,Site2_Lelystad,0.20759558764
+S03,10 - 30,34,52.3742974,4.5816766,Rural,Pinus,Fagus,"","","","","",Ilex,0,0,0,0,Site3_Haarlem,0.261208029543
+S03,30 - 60,25,52.3742974,4.5816766,Rural,Pinus,Fagus,"","","","","",Ilex,3,3,1,1,Site3_Haarlem,0.261208029543
+S03,60 - 90,14,52.3742974,4.5816766,Rural,Pinus,Fagus,"","","","","",Ilex,3,3,1,1,Site3_Haarlem,0.261208029543
+S03,90+,1,52.3742974,4.5816766,Rural,Pinus,Fagus,"","","","","",Ilex,3,3,1,1,Site3_Haarlem,0.261208029543
+S04,10 - 30,1,52.1261161,4.4632246,Urban,Salix,Alnus,"","","","","","",0,0,0,0,Site4_LeidenDunes,0.281898173837
+S04,30 - 60,38,52.1261161,4.4632246,Urban,Salix,Alnus,"","","","","","",146,31,95,26,Site4_LeidenDunes,0.281898173837
+S04,60 - 90,12,52.1261161,4.4632246,Urban,Salix,Alnus,"","","","","","",146,31,51,13,Site4_LeidenDunes,0.281898173837
+S05,10 - 30,29,52.1314008,4.3349636,Rural,Quercus,Crataegus,"","","","","","",13,3,3,1,Site5_LeidenCanalWllows,0.239832611027
+S05,30 - 60,17,52.1314008,4.3349636,Rural,Quercus,Crataegus,"","","","","","",13,3,2,1,Site5_LeidenCanalWllows,0.239832611027
+S05,60 - 90,12,52.1314008,4.3349636,Rural,Quercus,Crataegus,"","","","","","",13,3,5,2,Site5_LeidenCanalWllows,0.239832611027
+S05,90+,1,52.1314008,4.3349636,Rural,Quercus,Crataegus,"","","","","","",13,3,3,2,Site5_LeidenCanalWllows,0.239832611027
+S06,0 - 10,2,52.1593306,4.5311344,Urban,Salix,Quercus,Acer,"","","","","",0,0,0,0,Site6_LeidenLibraryWillows,0.159691029639
+S06,10 - 30,21,52.1593306,4.5311344,Urban,Salix,Quercus,Acer,"","","","","",83,16,6,4,Site6_LeidenLibraryWillows,0.159691029639
+S06,30 - 60,19,52.1593306,4.5311344,Urban,Salix,Quercus,Acer,"","","","","",83,16,64,14,Site6_LeidenLibraryWillows,0.159691029639
+S06,60 - 90,5,52.1593306,4.5311344,Urban,Salix,Quercus,Acer,"","","","","",83,16,9,2,Site6_LeidenLibraryWillows,0.159691029639
+S06,90+,5,52.1593306,4.5311344,Urban,Salix,Quercus,Acer,"","","","","",83,16,4,1,Site6_LeidenLibraryWillows,0.159691029639
+S07,10 - 30,105,51.579664,3.6576714,Rural,Fagus,Betula,"","","","","","",2,2,1,1,Site7_Zeeland,0.271239018207
+S07,30 - 60,29,51.579664,3.6576714,Rural,Fagus,Betula,"","","","","","",2,2,1,1,Site7_Zeeland,0.271239018207
+S07,60 - 90,0,51.579664,3.6576714,Rural,Fagus,Betula,"","","","","","",0,0,0,0,Site7_Zeeland,0.271239018207
+S07,90+,0,51.579664,3.6576714,Rural,Fagus,Betula,"","","","","","",0,0,0,0,Site7_Zeeland,0.271239018207
+S08,10 - 30,63,51.345665,3.3183843,Rural,Fraxinus,Fagus,"","","","","",Hedera,0,0,0,0,Site8_Knokke,0.249873516307
+S08,30 - 60,32,51.345665,3.3183843,Rural,Fraxinus,Fagus,"","","","","",Hedera,0,0,0,0,Site8_Knokke,0.249873516307
+S08,60 - 90,21,51.345665,3.3183843,Rural,Fraxinus,Fagus,"","","","","",Hedera,0,0,0,0,Site8_Knokke,0.249873516307
+S08,90+,0,51.345665,3.3183843,Rural,Fraxinus,Fagus,"","","","","",Hedera,0,0,0,0,Site8_Knokke,0.249873516307
+S09,10 - 30,50,51.2204736,2.9227499,Urban,Fraxinus,Acer,Betula,Fagus,"","","","",0,0,0,0,Site9_Oostende,0.279391348798
+S09,30 - 60,32,51.2204736,2.9227499,Urban,Fraxinus,Acer,Betula,Fagus,"","","","",0,0,0,0,Site9_Oostende,0.279391348798
+S09,60 - 90,12,51.2204736,2.9227499,Urban,Fraxinus,Acer,Betula,Fagus,"","","","",13,7,13,7,Site9_Oostende,0.279391348798
+S09,90+,1,51.2204736,2.9227499,Urban,Fraxinus,Acer,Betula,Fagus,"","","","",0,0,0,0,Site9_Oostende,0.279391348798
+S10,10 - 30,5,51.1390568,2.7158335,Urban,Salix,"","","","","","","",43,18,7,4,Site10_NieuwpoortWillows,0.330197301905
+S10,30 - 60,45,51.1390568,2.7158335,Urban,Salix,"","","","","","","",43,18,36,16,Site10_NieuwpoortWillows,0.330197301905
+S11,60 - 90,5,51.0903012,2.6110195,Rural,Salix,"","","","","","","",42,13,10,4,Site11_DePanneWillows,0.08655808949
+S11,90+,5,51.0903012,2.6110195,Rural,Salix,"","","","","","","",42,13,32,12,Site11_DePanneWillows,0.08655808949
+S12,10 - 30,59,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",0,0,0,0,Site12_DePanne,0.367078967515
+S12,30 - 60,15,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,9,3,Site12_DePanne,0.367078967515
+S12,60 - 90,8,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,1,1,Site12_DePanne,0.367078967515
+S12,90+,5,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,6,3,Site12_DePanne,0.367078967515
+S13,10 - 30,30,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
+S13,30 - 60,20,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
+S13,60 - 90,10,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
+S13,90+,1,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
+S14,10 - 30,30,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,0,0,0,0,Site14_StValery,0.393644434969
+S14,30 - 60,29,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,0,0,0,0,Site14_StValery,0.393644434969
+S14,60 - 90,22,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,1,1,1,1,Site14_StValery,0.393644434969
+S14,90+,2,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,0,0,0,0,Site14_StValery,0.393644434969
+S15,10 - 30,0,50.1335389,1.7393024,Rural,Salix,"","","","","","","",0,0,0,0,Site15_StValeryWillows,3.78920769721
+S15,30 - 60,23,50.1335389,1.7393024,Rural,Salix,"","","","","","","",24,16,3,3,Site15_StValeryWillows,3.78920769721
+S15,60 - 90,11,50.1335389,1.7393024,Rural,Salix,"","","","","","","",24,16,6,6,Site15_StValeryWillows,3.78920769721
+S15,90+,9,50.1335389,1.7393024,Rural,Salix,"","","","","","","",24,16,14,12,Site15_StValeryWillows,3.78920769721
+S16,10 - 30,20,49.88844,1.17309,Rural,Fagus,Quercus,"","","","","","",0,0,0,0,Site16_Dieppe,0.406247043686
+S16,30 - 60,27,49.88844,1.17309,Rural,Fagus,Quercus,"","","","","","",0,0,0,0,Site16_Dieppe,0.406247043686
+S16,60 - 90,5,49.88844,1.17309,Rural,Fagus,Quercus,"","","","","","",0,0,0,0,Site16_Dieppe,0.406247043686
+S16,90+,0,49.88844,1.17309,Rural,Fagus,Quercus,"","","","","","",0,0,0,0,Site16_Dieppe,0.406247043686
+S17,10 - 30,39,49.40466,0.18589,Rural,Ilex,Fagus,Quercus,Betula ,Rhododendron,"","","",8,3,6,1,Site17_Honfleur,0.334949083564
+S17,30 - 60,36,49.40466,0.18589,Rural,Ilex,Fagus,Quercus,Betula ,Rhododendron,"","","",0,0,0,0,Site17_Honfleur,0.334949083564
+S17,60 - 90,11,49.40466,0.18589,Rural,Ilex,Fagus,Quercus,Betula ,Rhododendron,"","","",8,3,1,1,Site17_Honfleur,0.334949083564
+S17,90+,3,49.40466,0.18589,Rural,Ilex,Fagus,Quercus,Betula ,Rhododendron,"","","",8,3,1,1,Site17_Honfleur,0.334949083564
+S18,10 - 30,60,49.4047619,0.1858556,Rural,Fraxinus,Betula,Acer,Alnus,Fagus,"","","Hedera,Allium",0,0,0,0,Site18_Dives-sur-mer,0.233837162206
+S18,30 - 60,41,49.4047619,0.1858556,Rural,Fraxinus,Betula,Acer,Alnus,Fagus,"","","Hedera,Allium",0,0,0,0,Site18_Dives-sur-mer,0.233837162206
+S18,60 - 90,5,49.4047619,0.1858556,Rural,Fraxinus,Betula,Acer,Alnus,Fagus,"","","Hedera,Allium",0,0,0,0,Site18_Dives-sur-mer,0.233837162206
+S18,90+,0,49.4047619,0.1858556,Rural,Fraxinus,Betula,Acer,Alnus,Fagus,"","","Hedera,Allium",0,0,0,0,Site18_Dives-sur-mer,0.233837162206
+S19,10 - 30,146,49.589478,-1.2467049,Urban,Salix,Alnus,Pinus,Eucalyptus,Phoenix,Trachycarpus,Tamarix,"",50,21,5,3,Site19_Tatihou,5.08886786154
+S19,30 - 60,130,49.589478,-1.2467049,Urban,Salix,Alnus,Pinus,Eucalyptus,Phoenix,Trachycarpus,Tamarix,"",50,21,18,10,Site19_Tatihou,5.08886786154
+S19,60 - 90,22,49.589478,-1.2467049,Urban,Salix,Alnus,Pinus,Eucalyptus,Phoenix,Trachycarpus,Tamarix,"",50,21,13,6,Site19_Tatihou,5.08886786154
+S19,90+,7,49.589478,-1.2467049,Urban,Salix,Alnus,Pinus,Eucalyptus,Phoenix,Trachycarpus,Tamarix,"",50,21,14,8,Site19_Tatihou,5.08886786154
+S20,10 - 30,37,49.71196,-2.21001,Rural,Fagus,Acer,Quercus,Castanea,Sambucus,"","","Hedera,Polypodiales",0,0,0,0,Site20_Alderney,0.890708269975
+S20,30 - 60,30,49.71196,-2.21001,Rural,Fagus,Acer,Quercus,Castanea,Sambucus,"","","Hedera,Polypodiales",5,3,4,2,Site20_Alderney,0.890708269975
+S20,60 - 90,22,49.71196,-2.21001,Rural,Fagus,Acer,Quercus,Castanea,Sambucus,"","","Hedera,Polypodiales",5,3,1,1,Site20_Alderney,0.890708269975
+S20,90+,5,49.71196,-2.21001,Rural,Fagus,Acer,Quercus,Castanea,Sambucus,"","","Hedera,Polypodiales",0,0,0,0,Site20_Alderney,0.890708269975
+S21,10 - 30,33,49.42511,-2.35531,Rural,Fraxinus,Acer,Sambucus,Crataegus,"","","","Hedera,Polypodiales",0,0,0,0,Site21_Sark,0.368736450903
+S21,30 - 60,19,49.42511,-2.35531,Rural,Fraxinus,Acer,Sambucus,Crataegus,"","","","Hedera,Polypodiales",2,1,1,1,Site21_Sark,0.368736450903
+S21,60 - 90,12,49.42511,-2.35531,Rural,Fraxinus,Acer,Sambucus,Crataegus,"","","","Hedera,Polypodiales",0,0,0,0,Site21_Sark,0.368736450903
+S21,90+,1,49.42511,-2.35531,Rural,Fraxinus,Acer,Sambucus,Crataegus,"","","","Hedera,Polypodiales",2,1,1,1,Site21_Sark,0.368736450903
+S22,10 - 30,81,49.46779,-2.44848,Rural,Fraxinus,Cedrus,Eucalyptus,"","","","","",0,0,0,0,Site22_Herm,0.520290259971
+S22,30 - 60,11,49.46779,-2.44848,Rural,Fraxinus,Cedrus,Eucalyptus,"","","","","",5,4,1,1,Site22_Herm,0.520290259971
+S22,60 - 90,15,49.46779,-2.44848,Rural,Fraxinus,Cedrus,Eucalyptus,"","","","","",0,0,0,0,Site22_Herm,0.520290259971
+S22,90+,10,49.46779,-2.44848,Rural,Fraxinus,Cedrus,Eucalyptus,"","","","","",5,4,4,3,Site22_Herm,0.520290259971
+S23,10 - 30,55,49.4363576,-2.5379502,Rural,Acer,Fraxinus,"","","","","","Ilex,Polypodiales",6,2,4,1,Site23_Guernsey,0.268763111168
+S23,30 - 60,39,49.4363576,-2.5379502,Rural,Acer,Fraxinus,"","","","","","Ilex,Polypodiales",0,0,0,0,Site23_Guernsey,0.268763111168
+S23,60 - 90,11,49.4363576,-2.5379502,Rural,Acer,Fraxinus,"","","","","","Ilex,Polypodiales",6,2,2,2,Site23_Guernsey,0.268763111168
+S23,90+,3,49.4363576,-2.5379502,Rural,Acer,Fraxinus,"","","","","","Ilex,Polypodiales",0,0,0,0,Site23_Guernsey,0.268763111168
+S24,10 - 30,68,49.2235024,-2.0409439,Rural,Fagus,Quercus,"","","","","","Hedera,Ilex,Polypodiales",25,6,13,3,Site24_Jersey,0.364481592354
+S24,30 - 60,43,49.2235024,-2.0409439,Rural,Fagus,Quercus,"","","","","","Hedera,Ilex,Polypodiales",25,6,11,6,Site24_Jersey,0.364481592354
+S24,60 - 90,4,49.2235024,-2.0409439,Rural,Fagus,Quercus,"","","","","","Hedera,Ilex,Polypodiales",25,6,1,1,Site24_Jersey,0.364481592354
+S24,90+,1,49.2235024,-2.0409439,Rural,Fagus,Quercus,"","","","","","Hedera,Ilex,Polypodiales",0,0,0,0,Site24_Jersey,0.364481592354
+S25,10 - 30,57,48.6920164,-1.8508795,Rural,Castanea,Quercus,Rubus,Pinus,"","","","Hedera,Polypodiales",0,0,0,0,Site25_Cancale,0.995453326532
+S25,30 - 60,56,48.6920164,-1.8508795,Rural,Castanea,Quercus,Rubus,Pinus,"","","","Hedera,Polypodiales",0,0,0,0,Site25_Cancale,0.995453326532
+S25,60 - 90,18,48.6920164,-1.8508795,Rural,Castanea,Quercus,Rubus,Pinus,"","","","Hedera,Polypodiales",0,0,0,0,Site25_Cancale,0.995453326532
+S25,90+,8,48.6920164,-1.8508795,Rural,Castanea,Quercus,Rubus,Pinus,"","","","Hedera,Polypodiales",0,0,0,0,Site25_Cancale,0.995453326532
+S26,10 - 30,100,48.2086909,-4.5127166,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site26_Crozon,0.374312248761
+S26,30 - 60,3,48.2086909,-4.5127166,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site26_Crozon,0.374312248761
+S26,60 - 90,0,48.2086909,-4.5127166,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site26_Crozon,0.374312248761
+S26,90+,0,48.2086909,-4.5127166,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site26_Crozon,0.374312248761
+S27,10 - 30,223,48.212261,-4.5106993,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site27_Crozon,0.246000946371
+S27,30 - 60,5,48.212261,-4.5106993,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site27_Crozon,0.246000946371
+S27,60 - 90,0,48.212261,-4.5106993,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site27_Crozon,0.246000946371
+S27,90+,0,48.212261,-4.5106993,Rural,Pinus,"","","","","","","Erica,Ulex",0,0,0,0,Site27_Crozon,0.246000946371
+S28,10 - 30,61,48.0353798,-4.5461875,Rural,Castanea,Quercus,Fagus,Ilex,Picea,"","","",4,2,2,2,Site28_Audierne,0.278096606951
+S28,30 - 60,30,48.0353798,-4.5461875,Rural,Castanea,Quercus,Fagus,Ilex,Picea,"","","",4,2,2,1,Site28_Audierne,0.278096606951
+S28,60 - 90,8,48.0353798,-4.5461875,Rural,Castanea,Quercus,Fagus,Ilex,Picea,"","","",0,0,0,0,Site28_Audierne,0.278096606951
+S28,90+,0,48.0353798,-4.5461875,Rural,Castanea,Quercus,Fagus,Ilex,Picea,"","","",0,0,0,0,Site28_Audierne,0.278096606951
+S29,10 - 30,97,47.8927817,-3.9467547,Rural,Pinus,Fagus,Quercus,Ilex,Picea,"","","",0,0,0,0,Site29_Concarneau,0.392342609679
+S29,30 - 60,47,47.8927817,-3.9467547,Rural,Pinus,Fagus,Quercus,Ilex,Picea,"","","",10,1,10,1,Site29_Concarneau,0.392342609679
+S29,60 - 90,6,47.8927817,-3.9467547,Rural,Pinus,Fagus,Quercus,Ilex,Picea,"","","",0,0,0,0,Site29_Concarneau,0.392342609679
+S29,90+,0,47.8927817,-3.9467547,Rural,Pinus,Fagus,Quercus,Ilex,Picea,"","","",0,0,0,0,Site29_Concarneau,0.392342609679
+S30,10 - 30,89,47.6413882,-2.9570603,Rural,Fagus,Picea,Pinus,Castanea,Quercus,"","","",61,1,31,1,Site30_Morbihan,0.256112680162
+S30,30 - 60,26,47.6413882,-2.9570603,Rural,Fagus,Picea,Pinus,Castanea,Quercus,"","","",61,1,27,1,Site30_Morbihan,0.256112680162
+S30,60 - 90,2,47.6413882,-2.9570603,Rural,Fagus,Picea,Pinus,Castanea,Quercus,"","","",61,1,3,1,Site30_Morbihan,0.256112680162
+S30,90+,0,47.6413882,-2.9570603,Rural,Fagus,Picea,Pinus,Castanea,Quercus,"","","",0,0,0,0,Site30_Morbihan,0.256112680162
+S31,10 - 30,35,47.0080376,-2.2215573,Rural,Quercus ilex,Quercus robur,Ilex,Robinia,Pinus,Arbutus,Crataegus,"",127,2,27,1,Site31_Noirmoutier,0.0924174582471
+S31,30 - 60,14,47.0080376,-2.2215573,Rural,Quercus ilex,Quercus robur,Ilex,Robinia,Pinus,Arbutus,Crataegus,"",127,2,81,2,Site31_Noirmoutier,0.0924174582471
+S31,60 - 90,3,47.0080376,-2.2215573,Rural,Quercus ilex,Quercus robur,Ilex,Robinia,Pinus,Arbutus,Crataegus,"",127,2,14,1,Site31_Noirmoutier,0.0924174582471
+S31,90+,1,47.0080376,-2.2215573,Rural,Quercus ilex,Quercus robur,Ilex,Robinia,Pinus,Arbutus,Crataegus,"",127,2,5,1,Site31_Noirmoutier,0.0924174582471
+S32,10 - 30,166,46.7133222,-2.3719248,Rural,Quercus ilex,Crataegus,"","","","","","",0,0,0,0,Site32_Ile_d'Yeu,0.25824763378
+S32,30 - 60,25,46.7133222,-2.3719248,Rural,Quercus ilex,Crataegus,"","","","","","",0,0,0,0,Site32_Ile_d'Yeu,0.25824763378
+S32,60 - 90,3,46.7133222,-2.3719248,Rural,Quercus ilex,Crataegus,"","","","","","",0,0,0,0,Site32_Ile_d'Yeu,0.25824763378
+S32,90+,2,46.7133222,-2.3719248,Rural,Quercus ilex,Crataegus,"","","","","","",2,1,2,1,Site32_Ile_d'Yeu,0.25824763378
+S33,10 - 30,47,46.718419,-2.3561117,Rural,Quercus ilex,Quercus robur,Ilex,"","","","","",27,2,5,1,Site33_Ile_d'Yeu,0.251172306182
+S33,30 - 60,25,46.718419,-2.3561117,Rural,Quercus ilex,Quercus robur,Ilex,"","","","","",27,2,11,1,Site33_Ile_d'Yeu,0.251172306182
+S33,60 - 90,5,46.718419,-2.3561117,Rural,Quercus ilex,Quercus robur,Ilex,"","","","","",27,2,11,2,Site33_Ile_d'Yeu,0.251172306182
+S33,90+,1,46.718419,-2.3561117,Rural,Quercus ilex,Quercus robur,Ilex,"","","","","",0,0,0,0,Site33_Ile_d'Yeu,0.251172306182
+S34,10 - 30,97,46.5707033,-1.826879,Rural,Robinia,Quercus ilex,Quercus robur,Crataegus,"","","","",0,0,0,0,Site34_Sables_d'Olonne,0.479760719174
+S34,30 - 60,74,46.5707033,-1.826879,Rural,Robinia,Quercus ilex,Quercus robur,Crataegus,"","","","",0,0,0,0,Site34_Sables_d'Olonne,0.479760719174
+S34,60 - 90,9,46.5707033,-1.826879,Rural,Robinia,Quercus ilex,Quercus robur,Crataegus,"","","","",0,0,0,0,Site34_Sables_d'Olonne,0.479760719174
+S34,90+,3,46.5707033,-1.826879,Rural,Robinia,Quercus ilex,Quercus robur,Crataegus,"","","","",1,1,1,1,Site34_Sables_d'Olonne,0.479760719174
+S35,10 - 30,164,46.1851477,-1.3560716,Rural,Pinus nigra,Quercus ilex,"","","","","","",8,3,1,1,Site35_Ile_de_Re,0.617341601499
+S35,30 - 60,79,46.1851477,-1.3560716,Rural,Pinus nigra,Quercus ilex,"","","","","","",8,3,1,1,Site35_Ile_de_Re,0.617341601499
+S35,60 - 90,7,46.1851477,-1.3560716,Rural,Pinus nigra,Quercus ilex,"","","","","","",0,0,0,0,Site35_Ile_de_Re,0.617341601499
+S35,90+,1,46.1851477,-1.3560716,Rural,Pinus nigra,Quercus ilex,"","","","","","",8,3,6,1,Site35_Ile_de_Re,0.617341601499
+S36,10 - 30,165,45.9862316,-1.2783358,Rural,Pinus,"","","","","","","",0,0,0,0,Site36_Ile_d'Oleron,0.172508902596
+S36,30 - 60,2,45.9862316,-1.2783358,Rural,Pinus,"","","","","","","",0,0,0,0,Site36_Ile_d'Oleron,0.172508902596
+S36,60 - 90,0,45.9862316,-1.2783358,Rural,Pinus,"","","","","","","",0,0,0,0,Site36_Ile_d'Oleron,0.172508902596
+S36,90+,0,45.9862316,-1.2783358,Rural,Pinus,"","","","","","","",0,0,0,0,Site36_Ile_d'Oleron,0.172508902596
+S37,10 - 30,90,45.9809812,-1.2827651,Rural,Pinus,Quercus ilex,"","","","","","",0,0,0,0,Site37_Ile_d'Oleron,0.275679696992
+S37,30 - 60,50,45.9809812,-1.2827651,Rural,Pinus,Quercus ilex,"","","","","","",8,1,8,1,Site37_Ile_d'Oleron,0.275679696992
+S37,60 - 90,1,45.9809812,-1.2827651,Rural,Pinus,Quercus ilex,"","","","","","",0,0,0,0,Site37_Ile_d'Oleron,0.275679696992
+S37,90+,0,45.9809812,-1.2827651,Rural,Pinus,Quercus ilex,"","","","","","",0,0,0,0,Site37_Ile_d'Oleron,0.275679696992
+S38,10 - 30,70,45.5527465,-1.0875819,Rural,Pinus,Quercus ilex,Quercus robur,Arbutus,"","","","",0,0,0,0,Site38_Verdon-sur-mer,0.329420213119
+S38,30 - 60,52,45.5527465,-1.0875819,Rural,Pinus,Quercus ilex,Quercus robur,Arbutus,"","","","",1,1,1,1,Site38_Verdon-sur-mer,0.329420213119
+S38,60 - 90,0,45.5527465,-1.0875819,Rural,Pinus,Quercus ilex,Quercus robur,Arbutus,"","","","",0,0,0,0,Site38_Verdon-sur-mer,0.329420213119
+S38,90+,0,45.5527465,-1.0875819,Rural,Pinus,Quercus ilex,Quercus robur,Arbutus,"","","","",0,0,0,0,Site38_Verdon-sur-mer,0.329420213119
+S39,10 - 30,34,43.5107536,-1.5124803,Rural,Pinus,Quercus ilex,Ilex,"","","","","",9,2,5,1,Site39_Bayonne,0.527463497391
+S39,30 - 60,46,43.5107536,-1.5124803,Rural,Pinus,Quercus ilex,Ilex,"","","","","",9,2,4,1,Site39_Bayonne,0.527463497391
+S39,60 - 90,28,43.5107536,-1.5124803,Rural,Pinus,Quercus ilex,Ilex,"","","","","",0,0,0,0,Site39_Bayonne,0.527463497391
+S39,90+,0,43.5107536,-1.5124803,Rural,Pinus,Quercus ilex,Ilex,"","","","","",0,0,0,0,Site39_Bayonne,0.527463497391
+S40,10 - 30,60,43.3718997,-1.822395,Rural,Castanea,Pinus,Quercus,"","","","","",0,0,0,0,Site40_Hondarribia,0
+S40,30 - 60,50,43.3718997,-1.822395,Rural,Castanea,Pinus,Quercus,"","","","","",0,0,0,0,Site40_Hondarribia,0
+S40,60 - 90,13,43.3718997,-1.822395,Rural,Castanea,Pinus,Quercus,"","","","","",0,0,0,0,Site40_Hondarribia,0
+S40,90+,1,43.3718997,-1.822395,Rural,Castanea,Pinus,Quercus,"","","","","",0,0,0,0,Site40_Hondarribia,0
