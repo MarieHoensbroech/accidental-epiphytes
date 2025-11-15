@@ -30,7 +30,7 @@ iNaturalist can reduce the need for resource‑intensive surveys and make ecolog
 Contributions are welcome!  
 - Fork the repository  
 - Submit pull requests with improvements or new analyses  
-- Share additional epiphyte observations via iNaturalist. Join our project [here](https://www.inaturalist.org/projects/accidental-epiphytes)  
+- Share additional epiphyte observations via iNaturalist. Join our project [here](https://www.inaturalist.org/projects/accidental-epiphytes)! :)  
 
 ## 👥 Contributors  
 - Richard Kachel (Artist & Crew)
