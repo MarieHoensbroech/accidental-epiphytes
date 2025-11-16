@@ -44,9 +44,9 @@ S12,30 - 60,15,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"",""
 S12,60 - 90,8,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,1,1,Site12_DePanne,0.367078967515
 S12,90+,5,51.08843,2.59384,Rural,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,6,3,Site12_DePanne,0.367078967515
 S13,10 - 30,30,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
-S13,30 - 60,20,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
-S13,60 - 90,10,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
-S13,90+,1,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
+S13,30 - 60,20,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",21,3,11,2,Site13_Boulogne,0.425505590184
+S13,60 - 90,10,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",21,3,7,2,Site13_Boulogne,0.425505590184
+S13,90+,1,50.65951,1.59683,Rural,Quercus,Pinus,"","","","","","",21,3,3,1,Site13_Boulogne,0.425505590184
 S14,10 - 30,30,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,0,0,0,0,Site14_StValery,0.393644434969
 S14,30 - 60,29,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,0,0,0,0,Site14_StValery,0.393644434969
 S14,60 - 90,22,50.11466,1.74377,Rural,Fagus,Quercus,Betula,"","","","",Ilex,1,1,1,1,Site14_StValery,0.393644434969
