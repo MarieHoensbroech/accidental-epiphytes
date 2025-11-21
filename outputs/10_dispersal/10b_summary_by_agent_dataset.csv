@@ -1,0 +1,15 @@
+dataset,dispersal_agent,n_species,n_obs
+field,animal,33,190
+field,wind,22,393
+field,unknown,19,60
+field,mixed,14,93
+field,unassisted,2,16
+field,ballistic,2,5
+field,water,1,5
+inat,animal,412,2117
+inat,unknown,277,937
+inat,mixed,273,1262
+inat,wind,225,2818
+inat,unassisted,39,212
+inat,ballistic,17,215
+inat,water,12,22

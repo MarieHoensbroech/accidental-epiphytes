@@ -1,0 +1,41 @@
+﻿site;lat;lon;setting;foresttypesource;forestage;forestagesource;forestheight;forestheightsource;dominanttree_raw;dominanttree1;dominanttree2;dominanttree3;dominanttree4;dominanttree5;dominanttree6;;undergrowth;logging (0=no,1=little,2=much)
+Site1;52.45567;5.43411;Rural;https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0;50.44;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;16;https://doi.org/10.1016/j.rse.2023.113797;Acer ;Acer ;Prunus;;;;;;;1
+Site2;52.47335;5.42394;Rural;https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0;52.83;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;17;https://doi.org/10.1016/j.rse.2023.113797;Acer ;Acer ;Prunus;Fagus;;;;;;0
+Site3;52.3742974;4.5816766;Rural;;62.73;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Pinus;Pinus; Fagus;;;;;;Ilex;0
+Site5;52.1314008;4.3349636;Rural;;57.29;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Quercus;Quercus; Crataegus;;;;;;;0
+Site4;52.1261161;4.4632246;Urban;;44.11;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Salix;Salix;Alnus;;;;;;;0
+Site6;52.1593306;4.5311344;Urban;;46.55;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Salix;Salix;Quercus;Acer;;;;;;0
+Site7;51.579664;3.6576714;Rural;;61.49;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Fagus ;Fagus ;Betula ;;;;;;;
+Site8;51.345665;3.3183843;Rural;;56;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Fraxinus ;Fraxinus ;Fagus ;;;;;;Hedera ;0
+Site9;51.2204736;2.9227499;Urban;;39.82;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Fraxinus ;Fraxinus ;Acer ;Betula;Fagus;;;;;0
+Site10;51.1390568;2.7158335;Urban;;40.88;https://www.bgc-jena.mpg.de/geodb/projects/DataDnld.php;;;Salix;Salix;;;;;;;;0
+Site11;51.0903012;2.6110195;Rural;;;;;;Salix;Salix;;;;;;;;0
+Site12;51.08843;2.59384;Rural;;;;;;Populus ;Populus ;Fagus ;Sambucus ;Acer ;Castanea;;;;0
+Site13;50.65951;1.59683;Rural;;;;;;Quercus;Quercus; Pinus;;;;;;;2
+Site14;50.11466;1.74377;Rural;;;;;;Fagus ;Fagus ;Quercus ;Betula ;;;;;Ilex;2
+Site15;50.1335389;1.7393024;Rural;;;;;;Salix;Salix;;;;;;;;0
+Site16;49.88844;1.17309;Rural;;;;;;Fagus ;Fagus ;Quercus;;;;;;;2
+Site17;49.40466;0.18589;Rural;;;;;;Ilex ;Ilex ;Fagus ;Quercus ;Betula ;Rhododendron;;;;1
+Site18;49.4047619;0.1858556;Rural;;;;;;Fraxinus Betula Acer Alnus Fagus ;Fraxinus ;Betula ;Acer;Alnus;Fagus;;;Hedera,Allium;1
+Site19;49.589478;-1.2467049;Urban;;;;;;Salix ;Salix;Alnus;Pinus;Eucalyptus;Phoenix;Trachycarpus;Tamarix;;0
+Site20;49.71196;-2.21001;Rural;;;;;;Fagus Acer Quercus Castanea Hedera Sambucus  FERNS ;Fagus ;Acer ;Quercus ;Castanea;Sambucus;;;Hedera,Polypodiales;0
+Site21;49.42511;-2.35531;Rural;;;;;;Fraxinus Acer Sambucus Hedera Crataegus FERNS;Fraxinus ;Acer ;Sambucus ;Crataegus;;;;Hedera,Polypodiales;0
+Site22;49.46779;-2.44848;Rural;;;;;;Fraxinus Cedrus Eucalyptus;Fraxinus ;Cedrus;Eucalyptus;;;;;;0
+Site23;49.4363576;-2.5379502;Rural;;;;;;Hedera Acer Fraxinus Ilex ferns;Acer ;Fraxinus;;;;;;Ilex,Polypodiales;
+Site24;49.2235024;-2.0409439;Rural;;;;;;Fagus Quercus Hedera Ilex ferns;Fagus ;Quercus;;;;;;Hedera,Ilex,Polypodiales;
+Site25;48.6920164;-1.8508795;Rural;;;;;;Castanea Quercus Rubus Pinus Hedera fern;Castanea;Quercus;Rubus;Pinus;;;;Hedera,Polypodiales;
+Site26;48.2086909;-4.5127166;Rural;;;;;;Pinus Erica grouse;Pinus;;;;;;;Erica,Ulex;
+Site27;48.212261;-4.5106993;Rural;;;;;;Pinus Erica grouse;Pinus;;;;;;;Erica,Ulex;
+Site28;48.0353798;-4.5461875;Rural;;;;;;Castanea Quercus Fagus Ilex fir?;Castanea;Quercus;Fagus;Ilex;Picea;;;;
+Site29;47.8927817;-3.9467547;Rural;;;;;;Pinus Fagus Quercus Ilex fir?;Pinus;Fagus ;Quercus ;Ilex;Picea;;;;
+Site30;47.6413882;-2.9570603;Rural;;;;;;Fagus fir? Pinus Castanea Quercus;Fagus;Picea;Pinus;Castanea;Quercus;;;;
+Site31;47.0080376;-2.2215573;Rural;;;;;;Quercus ilex Quercus robur Ilex Robinia Pinus Arbutus Crataegus ;Quercus ilex;Quercus robur;Ilex;Robinia;Pinus;Arbutus;Crataegus;;
+Site32;46.7133222;-2.3719248;Rural;;;;;;Quercus ilex Crateagus;Quercus ilex;Crataegus;;;;;;;
+Site33;46.718419;-2.3561117;Rural;;;;;;Quercus ilex Quercus robur Ilex ;Quercus ilex;Quercus robur;Ilex;;;;;;
+Site34;46.5707033;-1.826879;Rural;;;;;;Robinia Quercus ilex Quercus robur Crateagus;Robinia;Quercus ilex;Quercus robur;Crataegus;;;;;
+Site35;46.1851477;-1.3560716;Rural;;;;;;Pinus nigra Quercus ilex;Pinus nigra;Quercus ilex;;;;;;;
+Site36;45.9862316;-1.2783358;Rural;;;;;;Pinus;Pinus;;;;;;;;
+Site37;45.9809812;-1.2827651;Rural;;;;;;Pinus Quercus ilex;Pinus;Quercus ilex;;;;;;;
+Site38;45.5527465;-1.0875819;Rural;;;;;;Pinus Quercus ilex Quercus robur Arbutus;Pinus;Quercus ilex;Quercus robur;Arbutus;;;;;
+Site39;43.5107536;-1.5124803;Rural;;;;;;Pinus Quercus ilex Ilex;Pinus;Quercus ilex;Ilex;;;;;;
+Site40;43.3718997;-1.822395;Rural;;;;;;Castanea Pinus Quercus;Castanea;Pinus;Quercus;;;;;;

@@ -1,0 +1,3 @@
+CI excludes 0 on log scale ⇒ rate ratio CI excludes 1 → effect likely meaningful.
+PD ≥ 0.95 ⇒ moderate directional evidence; PD ≥ 0.975 ⇒ strong.
+ROPE% small (e.g., < 25%) ⇒ most of the posterior lies outside a “negligible” region (±10% here).

@@ -1,0 +1,7 @@
+
+	Pearson's Chi-squared test
+
+data:  tbl_agents
+X-squared = 14.866, df = 5, p-value = 0.01095
+
+[1] 0.05293067

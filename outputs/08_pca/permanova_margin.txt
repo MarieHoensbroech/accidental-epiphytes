@@ -1,0 +1,12 @@
+Permutation test for rda under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+Model: rda(formula = X_std ~ presence * is_island + source, data = meta)
+                      Df Variance      F Pr(>F)    
+source                 1   0.0337 45.959  0.001 ***
+presence:is_island     1   0.0431 58.764  0.001 ***
+Residual           13494   9.8951                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

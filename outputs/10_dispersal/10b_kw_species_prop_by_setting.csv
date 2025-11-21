@@ -1,0 +1,7 @@
+dispersal_agent2,.y.,n,statistic,df,p,method,p_value_label
+unknown,prop_spp,43,0.249427248354859,1,0.617,Kruskal-Wallis,0.6170
+unassisted,prop_spp,11,0.299931833674173,1,0.584,Kruskal-Wallis,0.5840
+water,prop_spp,4,3,1,0.0833,Kruskal-Wallis,0.0833
+wind,prop_spp,166,95.455205632314,1,1.51e-22,Kruskal-Wallis,< 0.0001
+animal,prop_spp,130,8.14164915898575,1,0.00433,Kruskal-Wallis,0.0043
+mixed,prop_spp,55,0.0476118909495297,1,0.827,Kruskal-Wallis,0.8270

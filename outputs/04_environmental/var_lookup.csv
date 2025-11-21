@@ -1,0 +1,15 @@
+var,label
+CHELSA_bio7,Temperature annual range (°C)
+CHELSA_npp_1981-2010_V.2.1,Net primary productivity (gC m⁻² yr⁻¹)
+CHELSA_bio3,Isothermality (%)
+access_min,Travel time to nearest city (mins)
+CHELSA_bio6,Minimum temperature of coldest month (°C)
+CHELSA_vpd_max_1981-2010_V.2.1,Max vapour pressure deficit (kPa)
+CHELSA_fgd_1981-2010_V.2.1,First day of growing season
+CHELSA_sfcWind_max_1981-2010_V.2.1,Max near-surface wind speed (ms⁻¹)
+CHELSA_bio15,"Precipitation seasonality (CV, %)"
+forest_age,Forest age (years)
+LAI,LAI (m² m-²)
+landcover,Land cover class
+lat_cdeg,Centred latitude (°)
+is_island,Island
