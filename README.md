@@ -7,7 +7,7 @@ It blends science, art, and open data to explore accidental epiphyte distributio
 
 ## 🗺️ Interactive Map
 Follow the sailing route, field locations, and accidental epiphyte observations submitted via iNaturalist (work in progress):  
-[Accidental Epiphytes Explorer](https://mariehoensbroech.shinyapps.io/accidental_epiphytes_interactive_observation_explorer/)
+[Accidental Epiphytes Explorer](https://mariehoensbroech.shinyapps.io/accidental_epiphytes_app/)
 
 ## 📊 Contents
 - Analytical summaries of field data gathered between **Lelystad, Netherlands** and **Hondarribia, Basque Country**  
