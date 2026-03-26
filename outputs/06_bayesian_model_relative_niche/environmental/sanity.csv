@@ -1,0 +1,2 @@
+in_file,out_file,n_in,n_out,n_na_lonlat,na_moist,na_maxT,na_minT,na_wind
+outputs/06_bayesian_model_relative_niche/inat_ranges/background_points.csv,outputs/06_bayesian_model_relative_niche/environmental/background_points_with_4chelsa.csv,160000,160000,0,37612,0,0,33693

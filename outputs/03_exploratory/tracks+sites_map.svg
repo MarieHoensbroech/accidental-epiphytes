@@ -90385,14 +90385,14 @@
 <text x='309.18' y='461.20' style='font-size: 11.20px; font-family: "Arial";' textLength='6.22px' lengthAdjust='spacingAndGlyphs'>4</text>
 <text x='315.40' y='461.20' style='font-size: 11.20px; font-family: "Arial";' textLength='4.47px' lengthAdjust='spacingAndGlyphs'>°</text>
 <text x='319.87' y='461.20' style='font-size: 11.20px; font-family: "Arial";' textLength='7.47px' lengthAdjust='spacingAndGlyphs'>E</text>
-<rect x='36.66' y='33.45' width='88.55' height='31.23' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF; fill-opacity: 0.30;' />
+<rect x='36.66' y='33.45' width='96.64' height='31.23' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF; fill-opacity: 0.30;' />
 <rect x='43.63' y='40.43' width='17.28' height='17.28' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF;' />
-<circle cx='52.27' cy='49.07' r='5.33' style='stroke-width: nan; stroke: none; fill: #8C7A64; fill-opacity: 0.60;' />
-<text x='67.88' y='53.07' style='font-size: 11.20px; font-family: "Arial";' textLength='50.34px' lengthAdjust='spacingAndGlyphs'>Field sites</text>
-<rect x='36.66' y='78.63' width='96.64' height='31.23' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF; fill-opacity: 0.30;' />
+<line x1='45.36' y1='49.07' x2='59.18' y2='49.07' style='stroke-width: 2.13; stroke: #F4C542; stroke-linecap: butt;' />
+<text x='67.88' y='53.07' style='font-size: 11.20px; font-family: "Arial";' textLength='58.44px' lengthAdjust='spacingAndGlyphs'>Sailed track</text>
+<rect x='36.66' y='78.63' width='88.55' height='31.23' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF; fill-opacity: 0.30;' />
 <rect x='43.63' y='85.60' width='17.28' height='17.28' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF;' />
-<line x1='45.36' y1='94.24' x2='59.18' y2='94.24' style='stroke-width: 2.13; stroke: #F4C542; stroke-linecap: butt;' />
-<text x='67.88' y='98.25' style='font-size: 11.20px; font-family: "Arial";' textLength='58.44px' lengthAdjust='spacingAndGlyphs'>Sailed track</text>
+<circle cx='52.27' cy='94.24' r='5.33' style='stroke-width: nan; stroke: none; fill: #8C7A64; fill-opacity: 0.60;' />
+<text x='67.88' y='98.25' style='font-size: 11.20px; font-family: "Arial";' textLength='50.34px' lengthAdjust='spacingAndGlyphs'>Field sites</text>
 </g>
 </g>
 </svg>

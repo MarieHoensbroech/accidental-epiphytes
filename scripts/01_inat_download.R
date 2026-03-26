@@ -100,9 +100,9 @@ tax_ids <- raw_df %>%
   distinct(taxon_id, .keep_all = TRUE) %>%
   mutate(taxon_ancestry = replace_na(taxon_ancestry, "")) %>%
   mutate(anc_ids = str_split(taxon_ancestry, "/", simplify = FALSE)) %>%
-  mutate(anc_ids = map(anc_ids, ~ .x[.x != ""])) %>%
-  mutate(anc_ids = map(anc_ids, ~ as.integer(.))) %>%
-  mutate(anc_ids = map2(anc_ids, taxon_id, c))   # append focal species' taxon id
+  mutate(anc_ids = purrr::map(anc_ids, ~ .x[.x != ""])) %>%
+  mutate(anc_ids = purrr::map(anc_ids, ~ as.integer(.))) %>%
+  mutate(anc_ids = purrr::map2(anc_ids, taxon_id, c))   # append focal species' taxon id
 
 # 2) Build a clean integer vector of all unique IDs and fetch ranks/names 
 all_ids_vec <- tax_ids %>%
@@ -303,7 +303,7 @@ extract_photo_urls <- function(photos_df) {
 
 obs_photos <- obs_numeric %>%
   mutate(
-    photo_urls = map(photos, extract_photo_urls),
+    photo_urls = purrr::map(photos, extract_photo_urls),
     # Render all photos in a simple HTML gallery
     photo_gallery = map_chr(
       photo_urls,
@@ -714,7 +714,7 @@ taxon_summary <- obs_date_clean %>%
   )
 
 # 5) Write outputs ---------------------------------
-# Merge all datafranes
+# Merge all dataframes
 obs_final <- taxon_summary %>%
   left_join(obs_date_clean) %>% 
   left_join(tax_lineage) 
