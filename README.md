@@ -2,17 +2,17 @@
 **Mapping accidental epiphytes along the Eastern Atlantic temperate coast**
 
 ## 📖 Overview
-This repository documents a 2025 sailing expedition combined with ecological fieldwork across multiple sites.  
+This repository documents a 2025 sailing expedition combined with ecological fieldwork across multiple sites between Lelystad, the Netherlands, and Hondarribia, Basque Country.  
 It blends science, art, and open data to explore accidental epiphyte distribution, while promoting sustainable research practices through iNaturalist.
 
 ## 🗺️ Interactive Map
-Follow the sailing route, field locations, and accidental epiphyte observations submitted via iNaturalist (work in progress):  
+Follow the sailing route, field locations, and accidental epiphyte observations submitted via iNaturalist:  
 [Accidental Epiphytes Explorer](https://mariehoensbroech.shinyapps.io/accidental_epiphytes_app/)
 
 ## 📊 Contents
 - Analytical summaries of field data gathered between **Lelystad, Netherlands** and **Hondarribia, Basque Country**  
 - Results from ecological surveys  
-- Visualizations of global accidental (and true) epiphyte distribution  
+- Visualizations of global accidental epiphyte distribution  
 
 ## 🎨 Artistic Component
 Videography and creative documentation accompany the scientific work, highlighting how citizen science platforms like 
@@ -24,7 +24,7 @@ iNaturalist can reduce the need for resource‑intensive surveys and make ecolog
 - Browse the interactive map for observations and routes  
 - Explore datasets and analyses in the repository folders  
 - Find out where accidental epiphytes are most likely to occur
-- Use visualizations to compare local and global epiphyte distributions  
+- Use visualizations to compare local and global accidental epiphyte distributions  
 
 ## 🤝 Contributing
 Contributions are welcome!  
