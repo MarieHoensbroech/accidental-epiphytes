@@ -1,4 +1,4 @@
-# 03_merge_fieldwork_inat.R
+# 02_merge_fieldwork_inat.R
 # 
 # 1) Fix some site ids (observation groups) that I messed up
 # 2) Standardize IDs (site, TreeID, EpiID), 
@@ -82,7 +82,7 @@ id_map2 <- id_map %>%
 
 # Prepare inat_for_merge up to BaseGroup 
 inat_for_merge <- inat_obs %>%
-  select(id,ObsGroup,DBH_num,Setting,EpiCount_noNA,taxon_id) %>% 
+  select(id,ObsGroup,DBH_num,Setting,EpiCount_num,taxon_id,community_taxon_id) %>% 
   mutate(id = as.character(id)) %>%
   left_join(id_map2, by = "id") %>%
   { if ("EpiID" %in% names(.)) mutate(., EpiID = as.character(coalesce(EpiID, EpiID_map)))
@@ -121,7 +121,7 @@ inat_for_merge <- inat_for_merge %>%
   arrange(TreeID) %>% 
   mutate(EpiNum    = sprintf("%02d", row_number()),
          EpiID = paste0(TreeID, "_E", EpiNum)) %>% 
-  reframe(id,TreeID,EpiID,site,DBH_num,EpiCount_noNA,taxon_id)
+  reframe(id,TreeID,EpiID,site,DBH_num,EpiCount_num,taxon_id,community_taxon_id)
 
 
 # . ----------------
@@ -135,18 +135,18 @@ inat_for_merge <- inat_for_merge  %>%
 
 # Per-site & per-size summaries (epiphyte counts and species per site)
 Epi_sum <- inat_for_merge %>% 
-  select(id, TreeCat, EpiCount_noNA, taxon_id, site)  %>% 
+  select(id, TreeCat, EpiCount_num, taxon_id, site)  %>% 
   distinct()  %>% 
   group_by(site)  %>% 
   mutate(
-    n_epis_per_site = sum(EpiCount_noNA, na.rm = TRUE),
+    n_epis_per_site = sum(EpiCount_num, na.rm = TRUE),
     n_sp_per_site   = n_distinct(taxon_id)
   )  %>% 
   group_by(site, TreeCat)  %>% 
   reframe(
     n_epis_per_site = first(n_epis_per_site),
     n_sp_per_site   = first(n_sp_per_site),
-    n_epis_per_site_cat = sum(EpiCount_noNA, na.rm = TRUE),
+    n_epis_per_site_cat = sum(EpiCount_num, na.rm = TRUE),
     n_sp_per_site_cat   = n_distinct(taxon_id)
   )
 
@@ -239,7 +239,7 @@ inat_merged <- inat_for_merge  %>%
 
 inat_merged %>% 
   group_by(id) %>% 
-  filter(n()>1) %>% view
+  filter(n()>1) # %>% view()
 
 fwrite(inat_merged, OUT_MERGED_CSV)
 

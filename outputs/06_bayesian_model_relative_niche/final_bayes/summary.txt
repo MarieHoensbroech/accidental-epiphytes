@@ -1,92 +1,72 @@
  Family: bernoulli 
   Links: mu = logit 
 Formula: y ~ 0 + species_label + species_label:moist_rel01 + species_label:maxT_rel01 + species_label:minT_rel01 + species_label:wind_rel01 
-   Data: dat_small (Number of observations: 15741) 
+   Data: dat_small (Number of observations: 12188) 
   Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
          total post-warmup draws = 8000
 
 Regression Coefficients:
-                                               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
-species_labelAcerplatanoides                      -2.37      0.84    -4.03    -0.75 1.00    12206     6179
-species_labelAcerpseudoplatanus                   -3.88      0.73    -5.30    -2.46 1.00    11604     5626
-species_labelAnthriscussylvestris                 -4.97      0.97    -6.93    -3.07 1.00    13297     6141
-species_labelFraxinusexcelsior                    -2.46      0.60    -3.64    -1.29 1.00    13657     6155
-species_labelGaliumaparine                        -2.42      0.70    -3.80    -1.08 1.00    14315     5888
-species_labelGeraniumrobertianum                  -0.43      0.70    -1.79     0.91 1.00    13763     6337
-species_labelHederahelix                          -1.39      0.73    -2.84     0.02 1.00    13184     6135
-species_labelIlexaquifolium                       -1.90      0.92    -3.76    -0.10 1.00    12789     6272
-species_labelPolypodiumcambricum                  -4.99      0.82    -6.61    -3.40 1.00    13383     6322
-species_labelPolypodiuminterjectum                -4.40      1.19    -6.74    -2.10 1.00    15004     5423
-species_labelPolypodiumvulgare                    -6.06      0.79    -7.63    -4.52 1.00    12013     6580
-species_labelSambucusnigra                         0.23      0.49    -0.71     1.19 1.00    13779     6170
-species_labelSolanumdulcamara                     -3.00      0.92    -4.82    -1.23 1.00    13113     5937
-species_labelSonchusoleraceus                     -3.75      0.76    -5.29    -2.30 1.00    12771     5686
-species_labelTaraxacumofficinale                  -3.29      0.72    -4.75    -1.90 1.00    16026     6288
-species_labelUmbilicusrupestris                   -4.95      0.64    -6.24    -3.71 1.00    13304     6533
-species_labelAcerplatanoides:moist_rel01          -3.20      1.60    -6.36    -0.14 1.00    16125     5566
-species_labelAcerpseudoplatanus:moist_rel01       -4.34      1.32    -7.07    -1.87 1.00    16097     5858
-species_labelAnthriscussylvestris:moist_rel01     -1.52      1.88    -5.32     2.24 1.00    19027     5218
-species_labelFraxinusexcelsior:moist_rel01        -0.75      1.35    -3.47     1.86 1.00    16300     6085
-species_labelGaliumaparine:moist_rel01            -0.18      1.64    -3.44     3.00 1.00    17116     5895
-species_labelGeraniumrobertianum:moist_rel01      -2.18      1.42    -5.02     0.57 1.00    14898     6333
-species_labelHederahelix:moist_rel01              -1.24      1.72    -4.66     2.13 1.00    16565     6216
-species_labelIlexaquifolium:moist_rel01           -1.22      1.51    -4.29     1.63 1.00    17599     6271
-species_labelPolypodiumcambricum:moist_rel01       6.48      1.09     4.37     8.59 1.00    14153     7219
-species_labelPolypodiuminterjectum:moist_rel01     1.69      1.64    -1.50     4.95 1.00    20313     5431
-species_labelPolypodiumvulgare:moist_rel01         0.32      1.01    -1.61     2.31 1.00    13707     6445
-species_labelSambucusnigra:moist_rel01            -2.74      1.69    -6.13     0.50 1.00    16216     5938
-species_labelSolanumdulcamara:moist_rel01          1.09      1.72    -2.25     4.46 1.00    17848     5827
-species_labelSonchusoleraceus:moist_rel01         -1.52      1.66    -4.83     1.67 1.00    14742     5537
-species_labelTaraxacumofficinale:moist_rel01       0.47      1.83    -3.09     4.12 1.00    20921     6276
-species_labelUmbilicusrupestris:moist_rel01        0.13      1.06    -1.91     2.22 1.00    15283     6395
-species_labelAcerplatanoides:maxT_rel01           -5.68      1.11    -7.82    -3.48 1.00    12772     6369
-species_labelAcerpseudoplatanus:maxT_rel01        -4.14      0.82    -5.75    -2.52 1.00    12269     6708
-species_labelAnthriscussylvestris:maxT_rel01      -2.51      1.23    -4.93    -0.08 1.00    14008     6266
-species_labelFraxinusexcelsior:maxT_rel01         -5.68      0.87    -7.41    -3.98 1.00    15157     5765
-species_labelGaliumaparine:maxT_rel01             -7.00      1.12    -9.23    -4.85 1.00    18516     6165
-species_labelGeraniumrobertianum:maxT_rel01       -8.59      1.05   -10.64    -6.53 1.00    11533     5961
-species_labelHederahelix:maxT_rel01               -5.23      1.05    -7.29    -3.19 1.00    14662     5703
-species_labelIlexaquifolium:maxT_rel01            -5.48      1.17    -7.77    -3.19 1.00    14498     6577
-species_labelPolypodiumcambricum:maxT_rel01       -6.87      1.08    -9.03    -4.78 1.00    11017     7008
-species_labelPolypodiuminterjectum:maxT_rel01     -2.54      1.41    -5.26     0.27 1.00    14389     6346
-species_labelPolypodiumvulgare:maxT_rel01         -7.93      1.12   -10.20    -5.80 1.00    10802     6466
-species_labelSambucusnigra:maxT_rel01             -8.92      0.79   -10.52    -7.41 1.00    13611     6386
-species_labelSolanumdulcamara:maxT_rel01          -2.10      1.46    -4.99     0.72 1.00    14103     6263
-species_labelSonchusoleraceus:maxT_rel01          -5.73      1.07    -7.84    -3.63 1.00    12391     6154
-species_labelTaraxacumofficinale:maxT_rel01       -3.96      1.23    -6.39    -1.61 1.00    15224     5997
-species_labelUmbilicusrupestris:maxT_rel01        -6.29      0.78    -7.83    -4.78 1.00    10200     5929
-species_labelAcerplatanoides:minT_rel01            7.54      0.96     5.70     9.40 1.00    17963     5952
-species_labelAcerpseudoplatanus:minT_rel01         7.13      0.74     5.71     8.60 1.00    17874     5549
-species_labelAnthriscussylvestris:minT_rel01       8.15      1.03     6.19    10.15 1.00    19306     6009
-species_labelFraxinusexcelsior:minT_rel01          7.27      0.81     5.71     8.89 1.00    18427     5603
-species_labelGaliumaparine:minT_rel01              6.59      1.00     4.64     8.59 1.00    17952     5336
-species_labelGeraniumrobertianum:minT_rel01        7.44      0.78     5.94     9.00 1.00    18465     5560
-species_labelHederahelix:minT_rel01                3.35      0.92     1.57     5.17 1.00    17615     5752
-species_labelIlexaquifolium:minT_rel01             4.59      1.16     2.33     6.87 1.00    17564     5243
-species_labelPolypodiumcambricum:minT_rel01       10.57      0.99     8.65    12.55 1.00    19336     6003
-species_labelPolypodiuminterjectum:minT_rel01      5.34      1.44     2.58     8.17 1.00    18207     5381
-species_labelPolypodiumvulgare:minT_rel01         13.49      0.78    11.97    15.05 1.00    16397     4914
-species_labelSambucusnigra:minT_rel01              3.60      0.55     2.53     4.66 1.00    17017     6233
-species_labelSolanumdulcamara:minT_rel01           4.64      1.19     2.32     7.00 1.00    18159     5727
-species_labelSonchusoleraceus:minT_rel01           7.19      1.11     5.00     9.38 1.00    13863     5897
-species_labelTaraxacumofficinale:minT_rel01        5.14      1.05     3.08     7.23 1.00    17124     5793
-species_labelUmbilicusrupestris:minT_rel01        11.98      0.80    10.42    13.58 1.00    16184     5580
-species_labelAcerplatanoides:wind_rel01           -2.03      1.26    -4.56     0.43 1.00    16146     5976
-species_labelAcerpseudoplatanus:wind_rel01        -0.27      0.96    -2.16     1.56 1.00    15338     6664
-species_labelAnthriscussylvestris:wind_rel01      -2.16      1.39    -4.91     0.56 1.00    17157     6427
-species_labelFraxinusexcelsior:wind_rel01         -1.30      1.10    -3.47     0.86 1.00    17476     6131
-species_labelGaliumaparine:wind_rel01              1.54      1.48    -1.35     4.40 1.00    17448     6002
-species_labelGeraniumrobertianum:wind_rel01       -1.55      0.98    -3.50     0.37 1.00    16483     5971
-species_labelHederahelix:wind_rel01                1.21      1.32    -1.38     3.77 1.00    17566     6257
-species_labelIlexaquifolium:wind_rel01            -0.45      1.32    -3.02     2.08 1.00    15760     6546
-species_labelPolypodiumcambricum:wind_rel01       -6.06      1.16    -8.35    -3.82 1.00    14959     6752
-species_labelPolypodiuminterjectum:wind_rel01      0.46      1.35    -2.19     3.12 1.00    16727     6325
-species_labelPolypodiumvulgare:wind_rel01         -2.73      0.93    -4.56    -0.91 1.00    15365     6341
-species_labelSambucusnigra:wind_rel01              4.63      0.92     2.87     6.45 1.00    14449     6360
-species_labelSolanumdulcamara:wind_rel01          -2.05      1.48    -4.94     0.74 1.00    18578     5202
-species_labelSonchusoleraceus:wind_rel01           3.30      1.20     0.93     5.72 1.00    12539     5920
-species_labelTaraxacumofficinale:wind_rel01        2.27      1.54    -0.78     5.30 1.00    16572     6440
-species_labelUmbilicusrupestris:wind_rel01        -2.39      0.72    -3.79    -0.98 1.00    13690     7333
+                                             Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+species_labelAcerplatanoides                    -2.33      0.86    -4.04    -0.68 1.00     6935     5843
+species_labelAcerpseudoplatanus                 -3.22      0.70    -4.61    -1.86 1.00     7020     5384
+species_labelFraxinusexcelsior                  -2.39      0.66    -3.67    -1.10 1.00     6976     5675
+species_labelGaliumaparine                      -2.22      0.83    -3.88    -0.62 1.00     8014     5922
+species_labelGeraniumrobertianum                -1.72      0.63    -2.97    -0.50 1.00     6632     6047
+species_labelHederahelix                        -1.43      0.77    -2.93     0.09 1.00     7683     6251
+species_labelIlexaquifolium                     -1.90      0.84    -3.60    -0.30 1.00     6689     5009
+species_labelPolypodiumcambricum                -2.20      0.94    -4.10    -0.34 1.00     7730     5601
+species_labelPolypodiumvulgare                  -4.86      0.71    -6.27    -3.48 1.00     7784     5217
+species_labelSambucusnigra                      -1.19      0.45    -2.09    -0.32 1.00     7142     5638
+species_labelSonchusoleraceus                   -3.45      0.80    -5.05    -1.90 1.00     7010     5415
+species_labelUmbilicusrupestris                 -5.15      0.55    -6.24    -4.06 1.00     6053     5669
+species_labelAcerplatanoides:moist_rel01        -1.70      1.67    -5.10     1.41 1.00    11101     6186
+species_labelAcerpseudoplatanus:moist_rel01     -4.16      1.31    -6.83    -1.70 1.00     9528     6486
+species_labelFraxinusexcelsior:moist_rel01      -1.12      1.43    -4.06     1.62 1.00     9605     5858
+species_labelGaliumaparine:moist_rel01          -0.33      1.67    -3.67     2.90 1.00    11229     6635
+species_labelGeraniumrobertianum:moist_rel01    -1.92      1.50    -4.85     1.00 1.00     9804     6577
+species_labelHederahelix:moist_rel01            -0.49      1.58    -3.56     2.61 1.00     9573     5995
+species_labelIlexaquifolium:moist_rel01         -1.10      1.62    -4.31     2.05 1.00    10116     5811
+species_labelPolypodiumcambricum:moist_rel01     3.05      1.48     0.20     5.96 1.00     8839     6210
+species_labelPolypodiumvulgare:moist_rel01       6.61      1.50     3.69     9.55 1.00     9224     6075
+species_labelSambucusnigra:moist_rel01          -2.89      1.13    -5.12    -0.68 1.00    10386     6232
+species_labelSonchusoleraceus:moist_rel01       -0.19      1.61    -3.42     3.02 1.00     9267     6945
+species_labelUmbilicusrupestris:moist_rel01     -0.59      0.88    -2.30     1.18 1.00     8448     5956
+species_labelAcerplatanoides:maxT_rel01         -5.87      1.23    -8.39    -3.49 1.00     7562     5895
+species_labelAcerpseudoplatanus:maxT_rel01      -5.18      0.96    -7.05    -3.36 1.00     7600     5707
+species_labelFraxinusexcelsior:maxT_rel01       -4.36      0.95    -6.28    -2.54 1.00     8149     5934
+species_labelGaliumaparine:maxT_rel01           -4.84      1.24    -7.26    -2.45 1.00     9457     6262
+species_labelGeraniumrobertianum:maxT_rel01     -7.98      0.99    -9.95    -6.04 1.00     7228     6031
+species_labelHederahelix:maxT_rel01             -4.95      1.04    -7.02    -2.95 1.00     9179     6000
+species_labelIlexaquifolium:maxT_rel01          -5.73      1.13    -7.95    -3.52 1.00     7644     5431
+species_labelPolypodiumcambricum:maxT_rel01     -5.89      1.29    -8.41    -3.38 1.00     8402     6348
+species_labelPolypodiumvulgare:maxT_rel01       -6.05      1.13    -8.23    -3.85 1.00     7253     5736
+species_labelSambucusnigra:maxT_rel01           -7.54      0.68    -8.89    -6.23 1.00     8704     6419
+species_labelSonchusoleraceus:maxT_rel01        -6.05      1.06    -8.15    -3.97 1.00     6538     5998
+species_labelUmbilicusrupestris:maxT_rel01      -5.93      0.68    -7.30    -4.61 1.00     5762     5873
+species_labelAcerplatanoides:minT_rel01          6.74      0.95     4.90     8.61 1.00    10408     6007
+species_labelAcerpseudoplatanus:minT_rel01       7.07      0.78     5.54     8.65 1.00    10100     5783
+species_labelFraxinusexcelsior:minT_rel01        4.92      0.78     3.43     6.47 1.00     9297     5675
+species_labelGaliumaparine:minT_rel01            4.73      1.22     2.40     7.12 1.00     8270     5778
+species_labelGeraniumrobertianum:minT_rel01      7.41      0.78     5.92     8.96 1.00     9953     5869
+species_labelHederahelix:minT_rel01              2.92      0.96     1.04     4.82 1.00     9842     6415
+species_labelIlexaquifolium:minT_rel01           5.47      1.02     3.47     7.51 1.00     9391     5825
+species_labelPolypodiumcambricum:minT_rel01      6.11      1.19     3.76     8.46 1.00     8723     6261
+species_labelPolypodiumvulgare:minT_rel01       10.64      0.93     8.86    12.47 1.00     9775     6203
+species_labelSambucusnigra:minT_rel01            4.31      0.60     3.13     5.52 1.00     8369     5775
+species_labelSonchusoleraceus:minT_rel01         7.52      0.98     5.64     9.46 1.00     7757     5940
+species_labelUmbilicusrupestris:minT_rel01      12.16      0.71    10.79    13.54 1.00     9230     6516
+species_labelAcerplatanoides:wind_rel01         -1.70      1.46    -4.65     1.14 1.00    10553     6168
+species_labelAcerpseudoplatanus:wind_rel01      -0.53      1.16    -2.83     1.71 1.00     9887     6479
+species_labelFraxinusexcelsior:wind_rel01       -1.27      1.36    -3.97     1.35 1.00    10979     5771
+species_labelGaliumaparine:wind_rel01           -0.70      1.62    -3.85     2.44 1.00    11740     5945
+species_labelGeraniumrobertianum:wind_rel01     -0.38      0.94    -2.23     1.47 1.00    10706     6075
+species_labelHederahelix:wind_rel01              0.68      1.01    -1.32     2.65 1.00    10469     6904
+species_labelIlexaquifolium:wind_rel01          -1.40      1.64    -4.62     1.80 1.00    10617     6080
+species_labelPolypodiumcambricum:wind_rel01     -4.47      1.31    -7.14    -1.96 1.00    10547     5870
+species_labelPolypodiumvulgare:wind_rel01       -4.17      1.08    -6.31    -2.03 1.00     8773     5883
+species_labelSambucusnigra:wind_rel01            2.86      0.98     0.95     4.80 1.00     9527     6582
+species_labelSonchusoleraceus:wind_rel01         2.64      1.21     0.29     5.03 1.00     8453     6363
+species_labelUmbilicusrupestris:wind_rel01      -2.68      0.60    -3.88    -1.55 1.00     8197     6589
 
 Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
 and Tail_ESS are effective sample size measures, and Rhat is the potential

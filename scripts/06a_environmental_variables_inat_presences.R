@@ -48,16 +48,25 @@ taxa<-fread(IN_INAT_FIELD) %>%
 
 #inat_raw %>% distinct(taxon.rank)
 inat_raw <- fread(IN_INAT_OBS) %>% 
+  filter(taxon_id%in%taxa) %>% 
+  distinct(id, .keep_all = T)
+
+inat_raw <- inat_raw %>% 
   as_tibble() %>%
   filter(taxon_id%in%taxa,
-         taxon.rank%in%c("species","complex")) %>% 
+         taxon.rank%in%c("species","complex","subspecies","hybrid"),
+         quality_grade=="research"#| !is.na(community_taxon_id)
+         ) %>% 
   mutate(
     taxon.id=taxon_id,
     lat = latitude, lon = longitude,
     lat_mid5 = floor(lat / 5) * 5 + 0.5
   ) %>% 
   drop_na(lat, lon) %>% 
-  select(lat, lon, taxon.name, id, quality_grade,taxon.id,taxon.rank) 
+  select(lat, lon, taxon.name, id, quality_grade,taxon.id) %>% 
+  group_by(taxon.name) %>% 
+  mutate(n=n()) %>% 
+  filter(n>=20)
 
 
 # --------------------------- 1) Clean & prepare data ---------------------------
@@ -69,13 +78,11 @@ inat_coords_global <- inat_sf_global %>%
     id = as.character(id),
     site = id,
     geometry,
-    quality_grade, taxon.name,
-    presence = 1,
-    taxon.rank
+    taxon.name,
+    presence = 1
   ) %>% 
   distinct(id, .keep_all = TRUE)%>% 
   mutate(row_id__tmp = row_number())
-
 
 pts_v <- terra::vect(inat_coords_global)
 

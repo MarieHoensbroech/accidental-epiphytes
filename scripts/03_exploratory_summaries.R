@@ -1,4 +1,4 @@
-# 03b_exploratory+summaries.R
+# 03_exploratory+summaries.R
 # 1) Calculate track length + non-overlap checks for MULTILINESTRING (WGS84) ----
 # 1b) Plot our track + field sites
 # 2) Summary stats

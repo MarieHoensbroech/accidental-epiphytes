@@ -19,9 +19,9 @@ S05,30 - 60,17,52.1314008,4.3349636,forest,Quercus,Crataegus,"","","","","","",1
 S05,60 - 90,12,52.1314008,4.3349636,forest,Quercus,Crataegus,"","","","","","",13,3,5,2,Site5_LeidenCanalWllows,0.239832611027
 S05,90+,1,52.1314008,4.3349636,forest,Quercus,Crataegus,"","","","","","",13,3,3,2,Site5_LeidenCanalWllows,0.239832611027
 S06,0 - 10,2,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",0,0,0,0,Site6_LeidenLibraryWillows,0.159691029639
-S06,10 - 30,21,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,16,6,4,Site6_LeidenLibraryWillows,0.159691029639
-S06,30 - 60,19,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,16,64,14,Site6_LeidenLibraryWillows,0.159691029639
-S06,60 - 90,5,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,16,9,2,Site6_LeidenLibraryWillows,0.159691029639
+S06,10 - 30,21,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,15,6,4,Site6_LeidenLibraryWillows,0.159691029639
+S06,30 - 60,19,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,15,64,13,Site6_LeidenLibraryWillows,0.159691029639
+S06,60 - 90,5,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",83,15,9,2,Site6_LeidenLibraryWillows,0.159691029639
 S06,90+,5,52.1593306,4.5311344,non-forest,Salix,Quercus,Acer,"","","","","",0,0,0,0,Site6_LeidenLibraryWillows,0.159691029639
 S07,10 - 30,105,51.579664,3.6576714,forest,Fagus,Betula,"","","","","","",2,2,1,1,Site7_Zeeland,0.271239018207
 S07,30 - 60,29,51.579664,3.6576714,forest,Fagus,Betula,"","","","","","",2,2,1,1,Site7_Zeeland,0.271239018207
@@ -40,9 +40,9 @@ S10,30 - 60,45,51.1390568,2.7158335,non-forest,Salix,"","","","","","","",43,18,
 S11,60 - 90,5,51.0903012,2.6110195,non-forest,Salix,"","","","","","","",42,13,10,4,Site11_DePanneWillows,0.08655808949
 S11,90+,5,51.0903012,2.6110195,non-forest,Salix,"","","","","","","",42,13,32,12,Site11_DePanneWillows,0.08655808949
 S12,10 - 30,59,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",0,0,0,0,Site12_DePanne,0.367078967515
-S12,30 - 60,15,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,9,3,Site12_DePanne,0.367078967515
-S12,60 - 90,8,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,1,1,Site12_DePanne,0.367078967515
-S12,90+,5,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,5,6,3,Site12_DePanne,0.367078967515
+S12,30 - 60,15,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,4,9,3,Site12_DePanne,0.367078967515
+S12,60 - 90,8,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,4,1,1,Site12_DePanne,0.367078967515
+S12,90+,5,51.08843,2.59384,forest,Populus,Fagus,Sambucus,Acer,Castanea,"","","",16,4,6,2,Site12_DePanne,0.367078967515
 S13,10 - 30,30,50.65951,1.59683,forest,Quercus,Pinus,"","","","","","",0,0,0,0,Site13_Boulogne,0.425505590184
 S13,30 - 60,20,50.65951,1.59683,forest,Quercus,Pinus,"","","","","","",21,3,11,2,Site13_Boulogne,0.425505590184
 S13,60 - 90,10,50.65951,1.59683,forest,Quercus,Pinus,"","","","","","",21,3,7,2,Site13_Boulogne,0.425505590184

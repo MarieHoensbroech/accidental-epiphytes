@@ -80,6 +80,5 @@ bg_csv %>%
 
 message("DONE. Saved:")
 message("  ", OUT_CSV)
-message("  ", OUT_GPKG)
 message("  ", file.path(OUT_DIR, "background_points_counts.csv"))
 

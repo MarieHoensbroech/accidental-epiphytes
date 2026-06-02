@@ -37,6 +37,7 @@ suppressPackageStartupMessages({
   library(rnaturalearth)
   library(brms)
   library(sf)
+  library(ggtext)
 })
 
 # Parameters -----------------------------------
@@ -64,7 +65,9 @@ my_sites   <- fread(IN_MY_SITES) %>% as_tibble() %>%
 # inat_field %>% distinct(taxon.rank)
 
 inat_field <- fread(IN_INAT_FIELD) %>% as_tibble() %>% 
-  filter(taxon.rank%in%c("species","genus","complex")) %>% #glimpse()
+  filter(taxon.rank%in%c("species","genus","complex"),
+         #!is.na(community_taxon_id) | quality_grade=="research"
+         ) %>% #glimpse()
   reframe(site, dbh_cat=TreeCat,
           setting,
           obs_count=n_epis_per_site,
@@ -91,7 +94,8 @@ my_inat   <- fread(IN_INAT_OBS) %>% as_tibble() %>%
           quality_grade,
           setting=Setting,
           count=EpiCount_noNA,
-          family_name) %>% 
+          family_name,
+          community_taxon_id) %>% 
   unique()
 
 inat_obs   <- fread(IN_INAT_OBS) %>% as_tibble() %>% 
@@ -227,6 +231,16 @@ my_inat_by_lat %>%
   unique()
 
 # Get dominant species
+
+genus_species_n <- my_inat_by_lat %>%
+  ungroup() %>% 
+  mutate(taxon.name=if_else(family_name=="Poaceae","Poaceae",taxon.name)) %>% 
+  filter(taxon.rank == "species"| family_name=="Poaceae") %>%
+  mutate(genus = word(taxon.name, 1)) %>%
+  distinct(genus, taxon_id) %>%
+  count(genus, name = "n_species")
+
+
 dominant_species_df <-
   my_inat_by_lat %>% 
   mutate(
@@ -237,7 +251,9 @@ dominant_species_df <-
   mutate(taxon.name=word(taxon.name,1)) %>% 
   group_by(lat_mid5,lon_mid5, setting, taxon.name) %>% 
 
-  filter(taxon.rank%in%c("species","genus","complex")) %>% 
+  filter(taxon.rank%in%c("species","genus","complex","subgenus","subspecies"),
+         #!is.na(community_taxon_id)|quality_grade=="research"
+         ) %>% 
   reframe(sum=sum(count),taxon.name) %>% unique() %>% 
   group_by(lon_mid5,lat_mid5,setting) %>% 
   distinct() %>%
@@ -247,12 +263,23 @@ dominant_species_df <-
   slice_head(n=10) %>% 
   arrange(desc(lat_mid5), taxon.name) %>%
   ungroup() %>% 
-  mutate(taxon.name = factor(taxon.name, levels = unique(taxon.name),ordered=T)) 
+  mutate(taxon.name = factor(taxon.name, levels = unique(taxon.name),ordered=T)) %>% 
+  
+  left_join(genus_species_n, by = c("taxon.name" = "genus")) %>%
+  mutate(
+      taxon.label = paste0(taxon.name, "<sup>",n_species,"</sup>"),
+      taxon.label = factor(
+        taxon.label,
+        levels = unique(taxon.label),
+        ordered = TRUE
+      )
+  )
+
 
 
 dominant_species_df %>% 
   ungroup() %>% 
-  select(taxon.name) %>% unique()
+  select(taxon.label) %>% unique()
 
 # ### 2.1a) MAP ------------
 # world <- ne_countries(scale = "medium", returnclass = "sf")
@@ -283,7 +310,7 @@ dominant_species_df %>%
 
 ### Create legend for all plots -------
 # Global, fixed ordering for taxa (already set on dominant_species_df)
-taxa_levels <- levels(unique(dominant_species_df$taxon.name))
+taxa_levels <- levels(unique(dominant_species_df$taxon.label))
 
 # Create a named palette with viridis
 taxa_pal <- setNames(
@@ -402,7 +429,7 @@ taxa_pal <- setNames(
 ### 2.1b) BAR PLOT########
 df_segments <- dominant_species_df %>%
   filter(setting!="") %>% 
-  group_by(lat_mid5, setting, taxon.name) %>%
+  group_by(lat_mid5, setting, taxon.label) %>%
   summarise(sum = sum(sum, na.rm = TRUE), .groups = "drop") %>%
   group_by(lat_mid5, setting) %>%
   mutate(
@@ -411,9 +438,9 @@ df_segments <- dominant_species_df %>%
   ) %>%
   ungroup() %>%
   # Fix factor levels so colors remain consistent
-  mutate(taxon.name = factor(taxon.name, levels = taxa_levels, ordered = TRUE)) %>%
+  mutate(taxon.label = factor(taxon.label, levels = taxa_levels, ordered = TRUE)) %>%
   # Order segments by taxon for reproducibility (or pick another order)
-  arrange(setting, lat_mid5, taxon.name) %>%
+  arrange(setting, lat_mid5, taxon.label) %>%
   group_by(setting, lat_mid5) %>%
   # Build cumulative horizontal allocation [0..1]
   mutate(
@@ -434,7 +461,7 @@ p_lat_segments <- ggplot(df_segments) +
       xmax = xmax,
       ymin = lat_mid5 - lat_bin_height/2,
       ymax = lat_mid5 + lat_bin_height/2,
-      fill = taxon.name
+      fill = taxon.label
     ),
     color = NA
   ) +
@@ -456,11 +483,12 @@ p_lat_segments <- ggplot(df_segments) +
   my_theme14+
   theme(
     legend.position     = "right",
-    legend.text         = element_text(face = "italic"),
+    legend.text         = element_markdown(face = "italic"),
     panel.grid.major.x  = element_blank(),
     panel.grid.minor    = element_blank(),
     plot.margin         = margin(5, 5, 5, 5)
-  )
+  )+
+  geom_text(aes(x=0.05,y=lat_mid5,label=total),col="white",size=3)
 
 p_lat_segments
 

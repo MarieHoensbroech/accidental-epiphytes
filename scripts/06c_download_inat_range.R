@@ -27,10 +27,11 @@ download_one <- function(taxon_id, species_label) {
   out_file <- file.path(OUT_DIR, sprintf("%s_%s.gpkg",
                                          taxon_id,
                                          str_replace_all(species_label, "[^A-Za-z0-9]+", "_")))
-  # If already downloaded, skip
-  if (file.exists(out_file)) {
-    return(tibble(taxon_id, species_label, status="exists", file=out_file, url=url))
-  }
+  # # If already downloaded, skip
+  # if (file.exists(out_file)) 
+  #   {
+  #   return(tibble(taxon_id, species_label, status="exists", file=out_file, url=url))
+  # }
   
   # Try to read from URL
   res <- tryCatch({

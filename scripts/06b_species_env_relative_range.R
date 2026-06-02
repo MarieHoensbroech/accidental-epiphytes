@@ -35,6 +35,7 @@ env_tbl <- fread(IN_ENV) %>%
 
 inat_species_pool <- env_tbl %>%
   #filter(quality_grade=="research") %>% 
+  #filter(!is.na(community_taxon_id)) %>% 
   mutate(species_label=paste(word(taxon_name,1),word(taxon_name,2),sep="_")) %>% 
   filter(is.finite(moisture), is.finite(max_temp), is.finite(min_temp), is.finite(wind))
 

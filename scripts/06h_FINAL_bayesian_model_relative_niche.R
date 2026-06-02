@@ -81,7 +81,7 @@ dat_small %>%
   count(species_label, y) %>%
   arrange(species_label, y)
 
-stop()
+
 
 #plot
 # compute extent from the data
@@ -240,8 +240,7 @@ ggplot(slopes_df2, aes(x = Estimate, y = species_label)) +
   geom_vline(xintercept = 0, linetype = "dashed", colour = "grey50") +
   geom_pointrange(
     aes(xmin = Q2.5, xmax = Q97.5, colour = colour_group),
-    fatten = 1.2,
-    size = 1,alpha=0.7
+    size = 1.5,alpha=0.7
   ) +
   scale_y_discrete(
     labels = function(x) parse(text = paste0("italic('", x, "')"))
