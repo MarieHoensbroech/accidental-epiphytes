@@ -32,6 +32,7 @@ data/environmental/*
 outputs/figures/
 outputs/tables/
 output/                  # legacy folder from older scripts
+submission/*
 
 # -------------------------
 # Logs & temp files
