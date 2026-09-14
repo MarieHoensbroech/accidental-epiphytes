@@ -7,13 +7,13 @@ It blends science, art, and open data to explore accidental epiphyte distributio
 
 ## 🗺️ Interactive Map
 Follow the sailing route, field locations, and accidental epiphyte observations submitted via iNaturalist:  
-[Accidental Epiphytes Explorer](https://mariehoensbroech.shinyapps.io/accidental_epiphytes_app/)
+[Accidental Epiphytes Expedition App](https://marie-hoensbroech-accidental-epiphytes-expedition.share.connect.posit.cloud/)
 
 
 ## 🎨 Artistic Component
 Videography and creative documentation accompany the scientific work, highlighting how citizen science platforms like 
 iNaturalist can reduce the need for resource‑intensive surveys and make ecological research more sustainable.  
-[Watch the documentary here](https://www.youtube.com/watch?v=Q8qqu10kovE&list=PL6TBIvaXgQMt50oMUJV27m5uzn16FNdob) <br>
+[Watch the trailer to our documentary here](https://www.youtube.com/watch?v=Q8qqu10kovE&list=PL6TBIvaXgQMt50oMUJV27m5uzn16FNdob) <br>
 [Follow Richard on Instagram](https://www.instagram.com/richardkachel)
 
 
